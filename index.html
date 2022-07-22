@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/1ad8ea85a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <form>
+        <input class="input_text" id = "text" type="text" placeholder="Write your city"/>
+        <input class="submit" type="submit" value="Search"/>
+      </form>
+      <h1 class="city" id = "mainCity">
+        Kyiv
+      </h1>
+      <div class="data">
+      <h3 id = "dataOne">
+      </h3>
+      <p id = "dataTwo">Monday</p></div>
+      <div class="possition">
+        <h1 id="temperature">18</h1>
+        <i class="fa-solid fa-sun sunOne"></i>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <i class="fa-solid fa-cloud-showers-heavy icon"></i>
+          <div class="day">Tuesday</div>
+        </div>
+        <div class="col-1">
+          <i class="fa-solid fa-cloud-sun icon"></i>
+          <div class="day">Wednesday</div>
+        </div>
+        <div class="col-1">
+          <i class="fa-solid fa-sun icon"></i>
+          <div class="day">Thursday</div>
+        </div>
+        <div class="col-1 col-offset-2">
+          <i class="fa-solid fa-cloud icon"></i><div class="friday day">Friday
+        </div>
+      </div>
+      <div class="col-1">
+        <i class="fa-solid fa-sun icon"></i>
+        <div class="day">Saturday</div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
